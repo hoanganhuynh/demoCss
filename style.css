@@ -15,5 +15,19 @@
 }
 
 div {
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    margin: 16px;
 }
+
+.bd-1px {
+    border: 1px solid #0c0c0c
+} 
+
+.radius-5px {
+    border-radius: 5px
+}
+
+.pd-16px {
+    padding: 16px
+}
+
