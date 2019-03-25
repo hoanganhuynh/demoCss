@@ -31,3 +31,32 @@ div {
     padding: 16px
 }
 
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 5px 10px
+}
+
+.danh-ba:link {
+    background: #f1f1f1;
+    color: #0c1c1c
+}
+
+.danh-ba:visited {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 5px 10px;
+    background: #f1f1f1;
+    color: #0c1c1c
+}
+
+.danh-ba:hover {
+    text-decoration: underline;
+    background: #0c1c1c;
+    color: #dad50a
+}
+
+.danh-ba:active {
+    color: #e86d13;
+}
+
