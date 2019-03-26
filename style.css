@@ -15,16 +15,11 @@
 }
 
 div {
-<<<<<<< HEAD
     font-family: 'Roboto'
 }
 
 .pd {
     padding: 16px 20px 16px 20px
-}
-=======
-    font-family: 'Roboto';
-    margin: 16px;
 }
 
 .bd-1px {
@@ -39,7 +34,7 @@ div {
     padding: 16px
 }
 
-a {
+.danh-ba {
     text-decoration: none;
     font-family: sans-serif;
     padding: 5px 10px
@@ -68,4 +63,4 @@ a {
     color: #e86d13;
 }
 
->>>>>>> feature/css
+
