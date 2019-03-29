@@ -1,3 +1,7 @@
+body {
+    margin: 1px
+}
+
 .center {
     text-align: center
 }
@@ -63,4 +67,26 @@ div {
     color: #e86d13;
 }
 
+.container {
+    background: #0c1c1c;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 35px;
+}
 
+.item1 {
+    background: #f00;
+    flex-basis: 100px;
+}
+
+.item2 {
+    background: #0f0;
+    flex-grow: 1
+}
+
+.item3 {
+    background: #00f;
+    flex-basis: 100px
+}
