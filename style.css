@@ -90,3 +90,25 @@ div {
     background: #00f;
     flex-basis: 100px
 }
+
+.tran-tran {
+    height: 200px;
+    width: 200px;
+    transform: translate(0px, 0px);
+    transition: all 0.5s
+}
+
+.tran-tran:hover {
+    transform: translate(50px, 50px)
+}
+
+.tran-scale {
+    height: 200px;
+    width: 200px;
+    transform: scale(1);
+    transition: all 0.5s
+}
+
+.tran-scale:hover {
+    transform: scale(0.5)
+}
