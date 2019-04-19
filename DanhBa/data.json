@@ -1,0 +1,19 @@
+{
+  "list": [
+    {
+      "name": "Liên",
+      "phoneNumber": "0348400961",
+      "id": 2
+    },
+    {
+      "name": "Nghĩa",
+      "phoneNumber": "0848489484",
+      "id": 3
+    },
+    {
+      "name": "Qui",
+      "phoneNumber": "0832629473",
+      "id": 4
+    }
+  ]
+}
