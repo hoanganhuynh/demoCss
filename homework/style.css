@@ -1,0 +1,138 @@
+.swapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px
+}
+
+.header {
+    width: 100%;
+    background: #EB9705;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .list {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header .list li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 5px 30px
+}
+
+.main {
+    background: #313131;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #606060;
+}
+
+.main .title {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 80px
+}
+
+.main .title h1 {
+    color: #EB9705;
+    font-size: 50px;
+}
+
+.main .title .name {
+    background: #EB9705;
+    border-radius: 200px;
+    font-size: 60px;
+    padding: 10px 60px
+}
+
+.main table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #313131;
+    background: #f2f2f2;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 150px;
+}
+
+.main th, td {
+    padding: 15px 30px;
+}
+
+.main th {
+    color: #EB9705
+}
+
+.main td {
+    color: #606060
+}
+
+.main .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 1080px;
+    margin: 50px 0
+}
+
+.main .container img {
+    width: 20%;
+    height: 20%;
+    margin: 50px 50px;
+}
+
+.main .container .item1 img {
+    float: left;
+}
+
+.main .container .item2 img {
+    float: right;
+}
+
+.main .container p {
+    font-size: 30px
+}
+
+.footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: #202020
+}
+
+.footer .main-footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 1080px;
+    align-items: center;
+    font-size: 30px;
+    color: #515151;
+    padding: 20px 0
+}
+
+.footer .bottom-footer {
+    background: #EB9705;
+    color: #f2f2f2;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0
+}
